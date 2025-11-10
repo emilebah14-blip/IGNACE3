@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TCHIAKPE Ignace Evariste Valère — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="avatar" title="Ajouter votre photo"></div>
+      <div>
+        <h1 class="title">TCHIAKPE Ignace Evariste Valère</h1>
+        <p class="subtitle">Diplomate • Formateur • Observateur Électoral • Directeur De Société</p>
+      </div>
+    </div>
+
+    <nav id="tabs">
+      <button class="tab active" data-target="accueil">Accueil</button>
+      <button class="tab" data-target="diplomatie">Diplomatie et missions</button>
+      <button class="tab" data-target="formations">Formations et certifications</button>
+      <button class="tab" data-target="competences">Compétences</button>
+      <button class="tab" data-target="interventions">Publications et interventions</button>
+      <button class="tab" data-target="interets">Centres d’intérêt</button>
+      <button class="tab" data-target="contacts">Contacts</button>
+    </nav>
+  </header>
+<!-- Fenêtre modale pour afficher la photo en grand -->
+<div id="modal" class="modal">
+  <span class="close" id="closeModal">&times;</span>
+  <img class="modal-content" id="modal-img" src="image.jpeg" alt="Photo de profil">
+</div>
+
+  <main>
+    <section id="accueil" class="panel active">
+      <h2>Mission</h2>
+      <p>Diplomate et formateur engagé pour la paix, la bonne gouvernance et le service public.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="label">Profil</div>
+          <div class="value">Consule de Guinée en République de Côte d'Ivoire de Décembre 2019 à Mai 2024.</div>
+        </div>
+        <div class="card contact">
+          <div class="label">Coordonnées</div>
+          <div class="value">
+            Tél: +225 05 05 73 98 63 / +225 07 07 25 28 32<br/>
+            WhatsApp: +225 0707252832 / +224 622 50 41 19<br/>
+            Email: <a href="mailto:tchival.ignace@gmail.com">tchival.ignace@gmail.com</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="label">Statut</div>
+          <div class="value">Marié, père de 4 enfants • Né le 26 octobre 1958 à Conakry, Guinée</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="diplomatie" class="panel">
+      <h2>Rôles et reconnaissances</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="label">Affaires Consulaires</div>
+          <div class="value">Premier Secrétaire, Ambassade de Guinée en Côte d’Ivoire (2020-2024).</div>
+        </div>
+        <div class="card">
+          <div class="label">Observations électorales</div>
+          <div class="value">
+            Bénin (Présidentielle 2001, 2011) • Côte d’Ivoire (Présidentielle 2010, 2013).
+            Réseau des Experts Électoraux Africains; Plateforme des ONG Africaines pour la Démocratie et la Bonne Gouvernance.
+          </div>
+        </div>
+        <div class="card">
+          <div class="label">Paix</div>
+          <div class="value">Désigné “Apôtre de la Paix” par la Communauté de Sant’Egidio (2012).</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formations" class="panel">
+      <h2>Formations clés</h2>
+      <div class="card">
+        <div class="value">
+          <span class="badge">Diplomatie économique</span>
+          <span class="badge">Diplomatie humanitaire</span>
+          <span class="badge">Management des politiques publiques</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="panel">
+      <h2>Langues</h2>
+      <p>Français • Anglais • Espagnol<br/>Soussou (courant) • Wolof (courant) • Malinké (moyen) • Pular (compréhensif)</p>
+      <h2>Outils et expertises</h2>
+      <div class="grid">
+        <div class="card"><div class="label">Bureautique</div><div class="value">Word, Excel, Access, PowerPoint</div></div>
+        <div class="card"><div class="label">Analyse</div><div class="value">Eviews, recherche Internet</div></div>
+      </div>
+    </section>
+
+    <section id="interventions" class="panel">
+      <h2>Formations et conférences</h2>
+      <div class="card">
+        <div class="label">ENS Abidjan (2025)</div>
+        <div class="value">Formateur — “Protocole et Pratique Diplomatique”.</div>
+      </div>
+    </section>
+
+    <section id="interets" class="panel">
+      <h2>Centres d’intérêt</h2>
+      <div class="grid">
+        <div class="card"><div class="label">Culture</div><div class="value">Cultures revalorisées</div></div>
+        <div class="card"><div class="label">Gastronomie</div><div class="value">Découverte et partage</div></div>
+        <div class="card"><div class="label">Voyages</div><div class="value">Afrique et Europe</div></div>
+      </div>
+    </section>
+
+    <section id="contacts" class="panel">
+      <h2>Contact direct</h2>
+      <div class="grid">
+        <div class="card"><div class="label">Téléphone</div><div class="value">+225 05 05 73 98 63 / +225 07 07 25 28 32</div></div>
+        <div class="card"><div class="label">WhatsApp</div><div class="value">+225 07 07 25 28 32 / +224 622 50 41 19</div></div>
+        <div class="card"><div class="label">Email</div><div class="value"><a href="mailto:tchival.ignace@gmail.com">tchival.ignace@gmail.com</a></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© TCHIAKPE Ignace Evariste Valère — Diplomatie, Paix, Gouvernance</footer>
+
+  <!-- Fenêtre modale pour l'image -->
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
