@@ -18,7 +18,7 @@ const avatar = document.querySelector(".avatar");
 
 function openModal() {
   modal.style.display = "block";
-  modalImg.src = "portrait.jpg";
+  modalImg.src = "image.jpeg";
 }
 
 function closeModal() {
@@ -45,3 +45,4 @@ modal.addEventListener("click", (event) => {
     modal.style.display = "none";
   }
 });
+
