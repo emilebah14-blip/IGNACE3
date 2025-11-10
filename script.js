@@ -15,7 +15,7 @@ tabs.forEach(tab => {
 const modal = document.getElementById("modal");
 const modalImg = document.getElementById("modal-img");
 const avatar = document.querySelector(".avatar");
-
+const closeBtn = document.getElementById("closeModal");
 function openModal() {
   modal.style.display = "block";
   modalImg.src = "image.jpeg";
@@ -45,4 +45,5 @@ modal.addEventListener("click", (event) => {
     modal.style.display = "none";
   }
 });
+
 
